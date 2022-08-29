@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.azadehs_elmiras_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:6:5-81
+11-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:8:22-64
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <application
+28-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:10:5-46:19
+29        android:allowBackup="true"
+29-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:11:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/7bd251a98f4b263876f2d759de1f6a42/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:12:9-65
+32        android:debuggable="true"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:13:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:14:9-43
+35        android:label="@string/app_name"
+35-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:15:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:16:9-54
+37        android:supportsRtl="true"
+37-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:17:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.AzadehS_ElmiraS_Project" >
+39-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:18:9-61
+40        <meta-data
+40-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:21:9-23:71
+41            android:name="com.google.android.geo.API_KEY"
+41-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:22:13-58
+42            android:value="AIzaSyAVABC6KJzLWustJd5fqI49JLHOLRGv3aQ" />
+42-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:23:13-68
+43
+44        <activity
+44-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:25:9-27:40
+45            android:name="com.example.azadehs_elmiras_project.views.MealDetailsScreen"
+45-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:26:13-52
+46            android:exported="false" />
+46-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:27:13-37
+47        <activity
+47-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:28:9-30:40
+48            android:name="com.example.azadehs_elmiras_project.views.MapsActivity"
+48-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:29:13-47
+49            android:exported="false" />
+49-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:30:13-37
+50        <activity
+50-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:31:9-33:40
+51            android:name="com.example.azadehs_elmiras_project.views.RegisterScreen"
+51-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:32:13-49
+52            android:exported="false" />
+52-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:33:13-37
+53        <activity
+53-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:34:9-36:40
+54            android:name="com.example.azadehs_elmiras_project.MainActivity"
+54-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:35:13-41
+55            android:exported="false" />
+55-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:36:13-37
+56        <activity
+56-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:37:9-45:20
+57            android:name="com.example.azadehs_elmiras_project.views.LoginScreen"
+57-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:38:13-46
+58            android:exported="true" >
+58-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:39:13-36
+59            <intent-filter>
+59-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:40:13-44:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:41:17-69
+60-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:41:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:43:17-77
+62-->/Users/elmirasarrafi/AndroidStudioProjects/AzadehS_ElmiraS_Project/app/src/main/AndroidManifest.xml:43:27-74
+63            </intent-filter>
+64        </activity>
+65        <!-- Needs to be explicitly declared on P+ -->
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:18.0.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/9dc717f53a0295f0276f006752b42110/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+69
+70        <activity
+70-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:27:9-44:20
+71            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+71-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:28:13-80
+72            android:excludeFromRecents="true"
+72-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:29:13-46
+73            android:exported="true"
+73-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:30:13-36
+74            android:launchMode="singleTask"
+74-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:31:13-44
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+75-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:32:13-72
+76            <intent-filter>
+76-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:33:13-43:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+77-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+79-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+80-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+81
+82                <data
+82-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+83                    android:host="firebase.auth"
+83-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+84                    android:path="/"
+84-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+85                    android:scheme="genericidp" />
+85-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:45:9-62:20
+89            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+89-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:46:13-79
+90            android:excludeFromRecents="true"
+90-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:47:13-46
+91            android:exported="true"
+91-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:48:13-36
+92            android:launchMode="singleTask"
+92-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:49:13-44
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+93-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:50:13-72
+94            <intent-filter>
+94-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:51:13-61:29
+95                <action android:name="android.intent.action.VIEW" />
+95-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+95-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+97-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+98-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+99
+100                <data
+100-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+101                    android:host="firebase.auth"
+101-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+102                    android:path="/"
+102-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+103                    android:scheme="recaptcha" />
+103-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+104            </intent-filter>
+105        </activity>
+106
+107        <service
+107-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:64:9-70:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:65:13-84
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:66:13-37
+111            <meta-data
+111-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:67:13-69:85
+112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+112-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:68:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-auth:21.0.5] /Users/elmirasarrafi/.gradle/caches/transforms-3/ad505ebd637976b7e28ce31e1fb9687d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:69:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore:24.1.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/8310c7c06ec35220b7076c52e626302e/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+115-->[com.google.firebase:firebase-firestore:24.1.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/8310c7c06ec35220b7076c52e626302e/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore:24.1.2] /Users/elmirasarrafi/.gradle/caches/transforms-3/8310c7c06ec35220b7076c52e626302e/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+117        </service>
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.0.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/4af0dbf53c1588d65b242911a3252c79/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.0.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/4af0dbf53c1588d65b242911a3252c79/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.0.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/4af0dbf53c1588d65b242911a3252c79/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.0.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/4af0dbf53c1588d65b242911a3252c79/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+123
+124        <provider
+124-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+125            android:name="com.google.firebase.provider.FirebaseInitProvider"
+125-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+126            android:authorities="com.example.azadehs_elmiras_project.firebaseinitprovider"
+126-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:20.1.1] /Users/elmirasarrafi/.gradle/caches/transforms-3/ea3f66c2459c4968129c800a75007b00/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:18.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5fca229151b197c3bd8e84f479edbc85/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:18.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5fca229151b197c3bd8e84f479edbc85/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:18.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5fca229151b197c3bd8e84f479edbc85/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+134
+135        <provider
+135-->[com.squareup.picasso:picasso:2.71828] /Users/elmirasarrafi/.gradle/caches/transforms-3/d50f2c80f12a2b3045c33da94ef3c105/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+136            android:name="com.squareup.picasso.PicassoProvider"
+136-->[com.squareup.picasso:picasso:2.71828] /Users/elmirasarrafi/.gradle/caches/transforms-3/d50f2c80f12a2b3045c33da94ef3c105/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+137            android:authorities="com.example.azadehs_elmiras_project.com.squareup.picasso"
+137-->[com.squareup.picasso:picasso:2.71828] /Users/elmirasarrafi/.gradle/caches/transforms-3/d50f2c80f12a2b3045c33da94ef3c105/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+138            android:exported="false" />
+138-->[com.squareup.picasso:picasso:2.71828] /Users/elmirasarrafi/.gradle/caches/transforms-3/d50f2c80f12a2b3045c33da94ef3c105/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+139        <provider
+139-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+140            android:name="androidx.startup.InitializationProvider"
+140-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+141            android:authorities="com.example.azadehs_elmiras_project.androidx-startup"
+141-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+142            android:exported="false" >
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+143            <meta-data
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+144-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+145                android:value="androidx.startup" />
+145-->[androidx.emoji2:emoji2:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/46f89811c8e13ffb02bda762bf611349/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+146            <meta-data
+146-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/0b7f7fe46509db5e156bd172bb3d13d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+147                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+147-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/0b7f7fe46509db5e156bd172bb3d13d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+148                android:value="androidx.startup" />
+148-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/0b7f7fe46509db5e156bd172bb3d13d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+149        </provider>
+150
+151        <uses-library
+151-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+152            android:name="androidx.window.extensions"
+152-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+153            android:required="false" />
+153-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+154        <uses-library
+154-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+155            android:name="androidx.window.sidecar"
+155-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+156            android:required="false" />
+156-->[androidx.window:window:1.0.0] /Users/elmirasarrafi/.gradle/caches/transforms-3/5b414752915752c307d935222581e625/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+157    </application>
+158
+159</manifest>
