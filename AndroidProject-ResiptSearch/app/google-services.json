@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284895084605",
+    "project_id": "recipe-seeker",
+    "storage_bucket": "recipe-seeker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284895084605:android:092164211a3f71029d2a54",
+        "android_client_info": {
+          "package_name": "com.example.azadehs_elmiras_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284895084605-ut36p4v2boe649ujpl1dn4el6464slu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwI_dfa82tb8b_lhSHmjSbosTv1ortCgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284895084605-ut36p4v2boe649ujpl1dn4el6464slu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
