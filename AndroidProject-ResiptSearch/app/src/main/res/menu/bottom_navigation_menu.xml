@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mealScreenFragment2"
+        android:title="MEAL"
+        android:icon="@drawable/ic_food"/>
+
+    <item
+        android:id="@+id/cardScreenFragment3"
+        android:title="CARD"
+        android:icon="@drawable/ic_shopping_cart"/>
+
+    <item
+        android:id="@+id/favouriteScreenFragment2"
+        android:title="FAVOURITE"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item
+        android:id="@+id/profileScreenFragment"
+        android:title="PROFILE"
+        android:icon="@drawable/ic_profile"/>
+
+
+</menu>

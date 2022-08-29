@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MealDetailsScreen"
+    android:id="@+id/rootLayout">
+
+    <Button
+        android:id="@+id/button_AddToCart_id"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="73dp"
+        android:backgroundTint="#E91E63"
+        android:hapticFeedbackEnabled="false"
+        android:text="Add to Card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_decrease_id"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <ImageView
+        android:id="@+id/image_meal_id"
+        android:layout_width="300dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_country_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Country"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mealName_id" />
+
+    <TextView
+        android:id="@+id/tv_category_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Category:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_country_id" />
+
+    <TextView
+        android:id="@+id/tv_mealName_id"
+        android:layout_width="288dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_meal_id" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Count:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_category_id" />
+
+    <Button
+        android:id="@+id/button_decrease_id"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#FF5722"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button_increase_id"
+        app:layout_constraintTop_toBottomOf="@+id/showLocation" />
+
+    <Button
+        android:id="@+id/button_increase_id"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#009688"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/tv_count_id"
+        app:layout_constraintTop_toBottomOf="@+id/showLocation" />
+
+    <TextView
+        android:id="@+id/tv_count_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="64dp"
+        android:text="0"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/showLocation" />
+
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="60dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="40dp"
+        android:text=""
+        app:icon="@android:drawable/ic_menu_compass"
+        app:layout_constraintStart_toEndOf="@+id/tv_country_id"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mealName_id"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/favorit"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        app:icon="@drawable/ic_favorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_increase_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

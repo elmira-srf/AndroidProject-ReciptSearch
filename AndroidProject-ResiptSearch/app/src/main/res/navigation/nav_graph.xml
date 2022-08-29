@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mealScreenFragment2">
+    <fragment
+        android:id="@+id/mealScreenFragment2"
+        android:name="com.example.azadehs_elmiras_project.fragments.MealScreenFragment"
+        android:label="fragment_meal_screen"
+        tools:layout="@layout/fragment_meal_screen" />
+    <fragment
+        android:id="@+id/cardScreenFragment3"
+        android:name="com.example.azadehs_elmiras_project.fragments.CardScreenFragment"
+        android:label="fragment_card_screen"
+        tools:layout="@layout/fragment_card_screen" />
+    <fragment
+        android:id="@+id/favouriteScreenFragment2"
+        android:name="com.example.azadehs_elmiras_project.fragments.FavouriteScreenFragment"
+        android:label="fragment_favourite_screen"
+        tools:layout="@layout/fragment_favourite_screen" />
+    <fragment
+        android:id="@+id/profileScreenFragment"
+        android:name="com.example.azadehs_elmiras_project.fragments.ProfileScreenFragment"
+        android:label="fragment_profile_screen"
+        tools:layout="@layout/fragment_profile_screen" />
+</navigation>
